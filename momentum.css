@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+
+
+body{
+	background: url(img/bg.jpg) no-repeat center center fixed;
+	background-position: center, center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+
+.links{
+	position:absolute;
+	top:10px;
+	left:50px;
+}
+
+.weather{
+	position:absolute;
+	top:10px;
+	right:50px;
+}
+
+.location{
+	position:absolute;
+	left:50px;
+	bottom:10px;
+}
+
+.toDo{
+	position:absolute;
+	bottom:10px;
+	right:50px;
+}
+
+
+img{
+	position:relative;
+	top:130px;
+	left: 50px;
+}
